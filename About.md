@@ -1,5 +1,5 @@
 layout: page
-title: About
+title: about
 permalink: https://ans-pixel.github.io/about
 
 
