@@ -1,3 +1,8 @@
+layout: page
+title: About
+permalink: https://ans-pixel.github.io/about
+
+
 # About
 ---
 
