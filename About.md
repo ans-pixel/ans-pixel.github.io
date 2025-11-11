@@ -3,4 +3,4 @@
 
 This is a test website.
 
-[Home}(https://ans-pixel.github.io)
+[Home](https://ans-pixel.github.io)
