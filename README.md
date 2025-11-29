@@ -74,6 +74,7 @@
 
 <button class="guide_accordion">Policies</button>
 <div class="guide_panel" style="max-height: 0; padding: 0 36px">
+    <p>These are our test policies.</p>
 </div>
 <br>
 <button class="guide_accordion">Work-Life Balance, Working Hours, and Mental Health and Well-Being</button>
