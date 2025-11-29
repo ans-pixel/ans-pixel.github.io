@@ -1,4 +1,3 @@
-yaml
 ---
 title: "Title"
 author: "Author"
