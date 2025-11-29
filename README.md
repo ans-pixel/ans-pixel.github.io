@@ -1,5 +1,3 @@
-# <u>Heading</u>
----
  <style>
     h1 {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -20,7 +18,7 @@
         font-weight: 500;
 
         line-height: 30px;
-        font-size: 12px;
+        font-size: 16px;
 
         text-align: justify;
     }
@@ -245,6 +243,9 @@ u{
     }
 </style>
 
+# <u>Heading</u>
+---
+
 <div class = "panel_container">
  <details>
  <summary><span class = "accordion_header" style = "display: inline;">The Brain</span></summary>
@@ -258,8 +259,6 @@ u{
     </div>
  </details>
  </div>
-
-
 <div class = "panel_container">
  <details>
  <summary><span class = "accordion_header" style = "display: inline;">The Spinal Cord</span></summary>
