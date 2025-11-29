@@ -1,0 +1,74 @@
+<head>
+  <link rel = "stylesheet" href = "./guide_style.css">
+  <title>Guidelines</title>
+</head>
+
+<body>
+    <div class="site_container">
+        <div class="navigation_main">
+            <div class="navigation_panel">
+                <div class="site_title">
+                    <p id = "site_tite">
+                        AetherNoSky
+                    </p>
+                    </div>
+                <br>
+                <div class = "link_container">
+                    <!--
+                    <a href="research.html" class = "site_link">
+                        <span id = "link_wrap">Research</span>
+                    </a>
+                    -->
+                    <a href = "sandbox.html" class = "site_link">
+                        <span id = "link_wrap">Home</span>
+                    </a>
+                    <a href = "about.md" class = "site_link">
+                        <span id = "link_wrap">About</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="global">
+            <div class="content_container">
+                <h1 class="guideline_h1">Skies High</h1>
+                <br>
+                <p class="text">
+                    Welcome!
+                </p>
+                <br>
+                <div class="accordion_container">
+                    <p class="text">
+                        Heading
+                    </p>
+                    <button class="guide_accordion">Project 1: Websites</button>
+                    <div class="guide_panel" style="max-height: 0; padding: 0 36px">
+                        <p>
+                            This is a test.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <script>
+        var acc = document.getElementsByClassName("guide_accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight != "0px") {
+                    panel.style.maxHeight = "0px";
+                    panel.style.padding = "0px 36px";
+                }
+                else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                    panel.style.padding = "18px 36px";
+                }
+            });
+        }
+    </script>
+</body>
